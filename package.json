@@ -1,0 +1,17 @@
+{
+  "name": "tgremote",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.21.1",
+    "robotjs": "^0.4.4",
+    "specialkey-emulator": "git+https://github.com/olegberman/specialkey-emulator.git"
+  },
+  "devDependencies": {},
+  "description": ""
+}
