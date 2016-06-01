@@ -51,10 +51,10 @@ bot.on('message', (msg) => {
       robot.moveMouse(pos.x + mouse_step, pos.y + mouse_step)
     break;
     case 'Bigger steps':
-      mouse_step = mouse_step + 3;
+      mouse_step = mouse_step + 3
     break;
     case 'Smaller steps':
-      mouse_step = mouse_step - 3;
+      mouse_step = mouse_step - 3
     break;
     case '📸':
       child_process.exec('screencapture -C -t jpg -r ./monitor.jpg', () => {
