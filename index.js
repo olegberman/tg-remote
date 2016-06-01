@@ -38,9 +38,7 @@ const map_commands_to_actions = (message) => {
     }
   }
 
-  const callee = actions[message.text] || function() {
-    bot.sendMessage(chat_id, `Not implemented, yet`)
-  }
+  const callee = actions[message.text] || function() {}
 
   callee()
 
@@ -57,8 +55,7 @@ const get_menu_markup = () => {
   return [
     [{ text: '🔅' }, { text: '🔆' }],
     [{ text: '🔉' }, { text: '🔇' }, { text: '🔊' }],
-    [{ text: '⬅️' }, { text: '🔘' }, { text: '➡️' }],
-    [{ text: '🐭' }]
+    [{ text: '⬅️' }, { text: '🔘' }, { text: '➡️' }]
   ]
 }
 
